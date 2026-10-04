@@ -1,0 +1,16 @@
+# local environment files (may contain host-specific values)
+config/*.env
+!config/*.env.example
+
+# build / scan output
+reports/
+publish/
+TestResults/
+.sonarqube/
+.scannerwork/
+dependency-check-data/
+.venv/
+node_modules/
+bin/
+obj/
+*.log
